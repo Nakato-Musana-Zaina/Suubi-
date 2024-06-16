@@ -4,7 +4,10 @@ import profiletwo from "../Profiles/Lavender.jpg";
 import profilethree from "../Profiles/Valentine.jpg";
 import profilefour from "../Profiles/Nakato.jpg";
 import logos from "../Assets/subii main logo.jpg"
-import facebook from "../Profiles/twitter.svg";
+import facebook from "../Profiles/facebook.svg";
+import twitter from "../Profiles/twitter.svg";
+import google from "../Profiles/google.svg";
+
 
 const Footer = () => {
   return (
@@ -63,17 +66,19 @@ const Footer = () => {
         </div>
         <div className="footer-content">
           <p>Programs</p>
-          <p> <a href="https://akirachix.com/programs/codeHive/">CodeHive</a></p>
-          <p> <a href="https://akirachix.com/programs/codeHiveX/">CodeHiveX</a></p>
-          <p><a href="https://akirachix.com/programs/#instructors">The Instructors</a></p>
+          <p className="link"> <a href="https://akirachix.com/programs/codeHive/">CodeHive</a></p>
+          <p className="link"> <a href="https://akirachix.com/programs/codeHiveX/">CodeHiveX</a></p>
+          <p className="link"><a href="https://akirachix.com/programs/#instructors">The Instructors</a></p>
           <p>Tech Allies</p>
         </div>
         <div className="footer-content">
           <p>Get In Touch</p>
-          <p><a href="https://akirachix.com/">616 Korongo Road,off Ndege Road,Karen</a></p>
-          <a href="https://akirachix.com/">info@akirachix.com</a>
+          <p className="link"><a href="https://akirachix.com/">616 Korongo Road,off Ndege Road,Karen</a></p>
+          <p className="link"><a href="https://akirachix.com/">info@akirachix.com</a></p>
           <div>
-            <img src={facebook} alt="facebook"/>
+            <img src={facebook} alt="facebook" className="Icons"/>
+            <img src={google} alt="google" className="Icons"/>
+            <img src={twitter} alt="twitter" className="Icons"/>
           </div>
         </div>
       </footer>
