@@ -1,0 +1,314 @@
+.about{
+    display: flex;
+    gap: 12%;
+}
+h2{
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 116.18px;
+    text-align: center;
+    color: #143A62;
+
+
+
+}
+.abouttext{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+    color: #0F192B;
+    width: 633px;
+    height: 117px;
+    top: 2901px;
+    left: 707px;
+    gap: 0px;
+    opacity: 0px;  
+}
+.about h3{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: left;
+    color: #143A62;  
+}
+
+.efficiency{
+    width: 8%;
+}
+.aboutimage{
+    width: 100%;
+    height: 80%;
+}
+.trust{
+    width: 15%;
+}
+.quality{
+    width: 12%;
+}
+.values p{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: left;
+    color: #000000;
+
+}
+
+
+@media screen and (min-width:200px) and (max-width:450px){
+    .about{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5%;
+            margin-left: 3%;
+        }
+        h2{
+            font-family: Inter;
+            font-size: 56px;
+            font-weight: 500px;
+            line-height: 70.18px;
+            text-align: left;
+            color: #143A62;
+        
+        }
+        .abouttext{
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 500;
+            /* line-height: 38.73px;
+            text-align: left; */
+            color: #0F192B;
+            width: 633px;
+            height: 87px;
+            top: 1901px;
+            /* left: 707px; */
+            gap: 0px;
+            opacity: 0px;
+        
+            
+        }
+        .about h3{
+            font-family: Inter;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 58.09px;
+            text-align: left;
+            color: #143A62;  
+        }
+        
+
+        .efficiency{
+            width: 8%;
+        }
+        .aboutimage{
+            width: 60%;
+            height: 70%;
+        }
+        .trust{
+            width: 10%;
+        }
+        .quality{
+            width: 8%;
+        }
+        .values p{
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 38.41px;
+            text-align: left;
+            color: #000000;
+        
+        }
+        
+}
+@media screen and (min-width:451px) and (max-width:650px){
+    .about{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8%;
+        }
+        h2{
+            font-family: Inter;
+            font-size: 49px;
+            font-weight: 600;
+            line-height: 80.18px;
+            text-align: left;
+            color: #143A62;
+        
+        }
+        .abouttext{
+            font-family: Inter;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 38.73px;
+            text-align: left;
+            color: #0F192B;
+            width: 633px;
+            height: 117px;
+            top: 1901px;
+            left: 607px;
+            gap: 0px;
+            opacity: 0px; 
+        }
+        .about h3{
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58.09px;
+            text-align: left;
+            color: #143A62;  
+        }
+        .efficiency{
+            width: 8%;
+        }
+        .aboutimage{
+            width: 65%;
+            height: 40%;
+        }
+        .trust{
+            width: 15%;
+        }
+        .quality{
+            width: 12%;
+        }
+        .values p{
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 48.41px;
+            text-align: left;
+            color: #000000;
+        
+        }
+}
+@media screen and (min-width:651px) and (max-width:900px){
+    .about{
+        display: flex;
+        gap: 9%;
+        flex-wrap: wrap;
+        object-fit: cover;
+    }
+    h2{
+        font-family: Inter;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 116.18px;
+        text-align: left;
+        color: #143A62;
+    }
+    .abouttext{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 38.73px;
+        text-align: left;
+        color: #0F192B;
+        width: 633px;
+        height: 117px;
+        top: 1901px;
+        left: 707px;
+        opacity: 0px;  
+    }
+    .about h3{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 58.09px;
+        /* text-align: left; */
+        color: #143A62;  
+    }
+    
+    .efficiency{
+        width: 8%;
+    }
+    .aboutimage{
+        width: 45%;
+        height: 70%;
+        margin-left: 8%;
+    }
+    .trust{
+        width: 10%;
+    }
+    .quality{
+        width: 9%;
+    }
+    .values p{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 48.41px;
+        /* text-align: left; */
+        color: #000000;
+    
+    }
+
+}
+@media screen and (min-width:901px) and (max-width:1200px){
+    .about{
+        display: flex;
+        gap: 12%;
+        flex-wrap: wrap;
+    }
+    h2{
+        font-family: Inter;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 116.18px;
+        text-align: left;
+        color: #143A62;
+    
+    
+    
+    }
+    .abouttext{
+        font-family: Inter;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 38.73px;
+        /* text-align: left; */
+        color: #0F192B;
+        width: 633px;
+        height: 117px;
+        /* top: 2901px;
+        left: 707px; */
+        gap: 0px;
+        opacity: 0px;  
+    }
+    .about h3{
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 58.09px;
+        text-align: left;
+        color: #143A62;  
+    }
+    
+    .efficiency{
+        width: 8%;
+    }
+    .aboutimage{
+        width: 60%;
+        height: 70%;
+    }
+    .trust{
+        width: 11%;
+    }
+    .quality{
+        width: 10%;
+    }
+    .values p{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 48.41px;
+        text-align: left;
+        color: #000000;
+    
+    } 
+}
+

@@ -1,11 +1,9 @@
-import logo from './logo.svg';
+import About from "./About/about";
 
-function About() {
+function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <About/>
   );
 }
 
-export default About;
+export default App;
