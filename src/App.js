@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import Footer from './Footer/footer';
+// import logo from './logo.svg';
 
-function About() {
+function App() {
   return (
     <div className="App">
+      <Footer/>
       
     </div>
   );
 }
 
-export default About;
+export default App;

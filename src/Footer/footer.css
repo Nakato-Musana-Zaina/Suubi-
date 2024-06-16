@@ -1,0 +1,56 @@
+.meetus{
+    font-family: Inter;
+font-size: 96px;
+font-weight: 700;
+
+text-align: center;
+
+}
+.Meetus{
+    font-family: Inter;
+font-size: 32px;
+
+color: #143A62;
+margin-top: 20px;
+
+
+}
+.images{
+    width: 340px;
+height: 310px;
+
+gap: 20px;
+
+border-radius: 350px;
+
+}
+.meet{
+    display: flex;
+    gap: 120px;
+    margin-left: 50px;
+}
+.meet-details{
+    display: flex;
+    gap: 200px;
+    margin-left: 50px;
+}
+footer{
+    display: flex;
+    font-family: Inter;
+font-size: 16px;
+gap: 380px;
+background-color: #143A62;
+color: white;
+padding-left: 10px;
+}
+.logos{
+    width: 67px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+    
+
+    
+     
+}
