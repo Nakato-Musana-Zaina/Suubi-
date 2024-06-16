@@ -1,0 +1,59 @@
+/* src/Navbar.css */
+.navbar {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container img.logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 100px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #143A62;
+    font-size: 20px;
+  }
+
+  .landing{
+
+    background-image: url('../../public/assets/dashboard.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    min-height:863px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity:0.8;
+    flex-direction: column;
+  }
+  .welcome{
+    font-size: 50px;
+    margin-right: auto;
+
+  }
+  button{
+    padding: 10px 8px;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    font-size: 25px;
+    font-weight: 300;
+    color: #143A62;
+    margin-right: auto;
+    border-color: #143A62 2px;
+  }
+ 
