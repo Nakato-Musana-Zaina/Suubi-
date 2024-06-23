@@ -1,36 +1,45 @@
-/* src/Navbar.css */
+
 .navbar {
    
     display: flex;
-    justify-content: space-between;
+    gap: 20%;
     align-items: center;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .logo-container{
+    margin-left: 20px;
   }
   
   .logo-container img.logo {
     width: 80px;
     height: 80px;
+    
   }
   
   .nav-links {
     list-style: none;
     display: flex;
+    gap: 26%;
+    margin-left: 13%;
   }
   
   .nav-links li {
     margin-left: 100px;
+    margin-right: -20%;
   }
   
   .nav-links a {
     text-decoration: none;
     color: #143A62;
     font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
   }
 
   .landing{
 
-    background-image: url('../../public/assets/dashboard.jpg'); /* Path to your background image */
+    background-image: url('../../public/assets/dashboard1.png');
     background-size: cover;
     background-position: center;
     min-height:863px; 
@@ -38,22 +47,277 @@
     justify-content: center;
     align-items: center;
     color: white;
-    opacity:0.8;
+    opacity:2;
     flex-direction: column;
   }
   .welcome{
-    font-size: 50px;
-    margin-right: auto;
+    font-size: 64px;
+    margin-right: -10px;
 
   }
   button{
-    padding: 10px 8px;
+    padding: 10px 18px;
     border-radius: 8px;
     background-color: #D9D9D9;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: bold;
     color: #143A62;
     margin-right: auto;
     border-color: #143A62 2px;
+    margin-left: 24.4%;
+    border-style: none;
   }
+
+
+  /* media queries*/
+ 
+  @media only screen and (max-width: 375px) {
+    .navbar {
+         gap: 10%;
+         max-width: 95%;
+     }
+ 
+    .logo-container {
+         margin-left: 5px;
+     }
+     
+     .logo-container img.logo {
+      width: 40px;
+      height: 40px;
+      
+    }
+ 
+    .nav-links {
+         gap: 15%;
+         margin-left: 2%;
+         flex-wrap: wrap;
+         flex-direction: column;
+     }
+ 
+    .nav-links li {
+         margin-left: 30px;
+         margin-right: -5%;
+     }
+ 
+    .nav-links a {
+         font-size: 14px;
+     }
+ 
+    .landing {
+         min-height: 543px;
+     }
+ 
+    .welcome {
+         font-size: 23px;
+     }
+ 
+     button {
+         padding: 6px 12px;
+         font-size: 18px;
+         margin-left: 7%;
+     }
+ }
+
+ @media only screen and (max-width: 280px) {
+  .navbar {
+       gap: 10%;
+       max-width: 95%;
+   }
+
+  .logo-container {
+       margin-left: 5px;
+   }
+   
+   .logo-container img.logo {
+    width: 40px;
+    height: 40px;
+    
+  }
+
+  .nav-links {
+       gap: 15%;
+       margin-left: 2%;
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+  .nav-links li {
+       margin-left: 30px;
+       margin-right: -5%;
+   }
+
+  .nav-links a {
+       font-size: 14px;
+   }
+
+  .landing {
+       min-height: 543px;
+       width: 280px;
+   }
+
+  .welcome {
+       font-size: 15px;
+   }
+
+   button {
+       padding: 6px 12px;
+       font-size: 18px;
+       margin-left: 7%;
+   }
+}
+
+
+
+ @media only screen and (min-width: 376px) and (max-width: 476px){
+
+  .navbar {
+    gap: 10%;
+    max-width: 95%;
+}
+
+.logo-container {
+    margin-left: 5px;
+}
+
+.logo-container img.logo {
+ width: 40px;
+ height: 40px;
+ 
+}
+
+.nav-links {
+    gap: 15%;
+    margin-left: 2%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.nav-links li {
+    margin-left: 30px;
+    margin-right: -5%;
+}
+
+.nav-links a {
+    font-size: 14px;
+}
+
+.landing {
+    min-height: 772px;
+}
+
+.welcome {
+    font-size: 25px;
+}
+
+button {
+    padding: 6px 12px;
+    font-size: 18px;
+    margin-left: 7%;
+}
+ }
+
+ @media only screen and (min-width: 476px) and (max-width: 800px){
+
+  .navbar {
+    gap: 10%;
+    max-width: 95%;
+}
+
+.logo-container {
+    margin-left: 5px;
+}
+
+.logo-container img.logo {
+ width: 50px;
+ height: 50px;
+ 
+}
+
+.nav-links {
+    gap: 6%;
+    margin-left: 2%;
+    
+
+}
+
+.nav-links li {
+    margin-left: 30px;
+    margin-right: -5%;
+}
+
+.nav-links a {
+    font-size: 20px;
+}
+
+.landing {
+    min-height: 772px;
+}
+
+.welcome {
+    font-size: 40px;
+}
+
+button {
+    padding: 6px 15px;
+    font-size: 20px;
+    margin-left: 12%;
+}
+
+ }
+ 
+
+ @media only screen and (min-width: 801px) and (max-width: 1224px){
+
+  .navbar {
+    gap: 10%;
+    max-width: 95%;
+}
+
+.logo-container {
+    margin-left: 5px;
+}
+
+.logo-container img.logo {
+ width: 50px;
+ height: 50px;
+ 
+}
+
+.nav-links {
+    gap: 6%;
+    margin-left: 12%;
+    
+
+}
+
+.nav-links li {
+    margin-left: 30px;
+    margin-right: -5%;
+}
+
+.nav-links a {
+    font-size: 25px;
+}
+
+.landing {
+    min-height: 1000px;
+}
+
+.welcome {
+    font-size: 60px;
+}
+
+button {
+    padding: 7px 15px;
+    font-size: 30px;
+    margin-left: 7%;
+}
+
+.logo-container img.logo {
+  width: 60px;
+  height: 60px;
+  
+ }
+
+ }
  
